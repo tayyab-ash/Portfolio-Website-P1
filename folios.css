@@ -1,0 +1,139 @@
+hr {
+    margin-top: 40px;
+    height: 4px;
+    border: none;
+    background-color: #1f2937;
+}
+
+.bd {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bd .heading {
+    margin-top: -25px;
+    letter-spacing: 0.5em;
+    color: white;
+    display: flex;
+    padding-left: 0.5em;
+    align-items: center;
+    justify-content: center;
+    width: 268px;
+    height: 50px;
+    background-color: #111827;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pf1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 50px 0;
+    width: 80%;
+    max-width: 700px;
+    height: 250px;
+    background-color: #1f2937;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0, 0.25);
+}
+
+.pf2 {
+    margin: 0 0 50px 0;
+    flex-direction: row-reverse;
+}
+
+.pf3 {
+    margin: 0 0 50px 0;
+}
+
+
+@media screen and (min-width: 1500px) {
+    .container {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .pf1 {
+        margin: 30px 25px 30px 0;
+    }
+
+    .pf2 {
+        margin: 30px 0 30px 25px;
+    }
+}
+
+.pf2 img {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.pf2 .text {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.pf1 img {
+    width: 320px;
+    height: 220px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.text {
+    margin-right: 30px;
+    width: 280px;
+    color: white;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 815px) {
+    .pf1 {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .pf1 img {
+        margin: 20px 0 20px 0;
+    }
+
+    .pf1 .text {
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .pf1 {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .pf1 img {
+        width: 220px;
+        height: 140px;
+        margin: 20px 0 20px 0;
+    }
+
+    .pf1 .text {
+        width: 220px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+}
+
+.foot p {
+    color: #727d8f;
+    text-align: center;
+    background-color: #1f2937;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+}

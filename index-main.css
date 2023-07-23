@@ -1,0 +1,174 @@
+.bg {
+  margin-top: 60px;
+  z-index: 0;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+
+.intro {
+  z-index: 1;
+  position: absolute;
+  left: 10%;
+  font-size: 1em;
+}
+
+.intro h1 {
+  font-size: 3em;
+  color: white;
+}
+
+.intro h2 {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+  width: 40vw;
+}
+
+.intro button {
+  font-size: 11pt;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #a855f7;
+  cursor: pointer;
+}
+
+.bg img{
+  opacity: 0.7;
+}
+.bg #img1 {
+  display: none;
+  /* opacity: 0.2; */
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    font-size: 0.8em;
+  }
+  
+  .intro p {
+    width: 80vw;
+  }
+
+  .bg #img3 {
+    display: none;
+  }
+
+  .bg #img1 {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .intro {
+    font-size: 0.5em;
+  }
+
+  .intro p {
+    width: 70vw;
+  }
+
+  .bg #img3 {
+    display: none;
+  }
+
+  .bg #img1 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .intro {
+    font-size: 0.6em;
+  }
+
+  .intro p {
+    width: 70vw;
+  }
+
+  .bg #img3 {
+    display: none;
+  }
+
+  .bg #img1 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .intro {
+    font-size: 0.7em;
+  }
+
+  .intro p {
+    width: 60vw;
+  }
+
+  .bg #img3 {
+    display: none;
+  }
+
+  .bg #img1 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 800px) {
+  .bg #img3 {
+    display: none;
+  }
+
+  .bg #img1 {
+    display: block;
+  }
+
+  .intro {
+    font-size: 0.8em;
+  }
+
+  .intro p {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 799px) and (max-width: 1007px) {
+  .intro {
+    font-size: 0.8em;
+  }
+
+  .intro p {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1008px) and (max-width: 1440px) {
+  .intro {
+    font-size: 1em;
+  }
+
+  .intro p {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .intro {
+    font-size: 1.2em;
+  }
+
+  .intro p {
+    width: 50vw;
+  }
+}
